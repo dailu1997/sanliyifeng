@@ -1,0 +1,74 @@
+/* pages/Consultation/Consultation.wxss */
+page {
+  background-color: rgb(244, 244, 244)
+}
+.body {
+  box-sizing: border-box;
+  padding: 19rpx;
+  background-color: rgb(255, 255, 255);
+  margin: 19rpx;
+  border-radius: 2%;
+  overflow: hidden;
+}
+.body .tuwen {
+  float: right;
+  width: 450rpx;
+}
+.body .tuwen .text{
+   font-size: 26rpx;
+}
+.width {
+    width: 650rpx;
+}
+.xinxi text{
+  font-size: 25rpx;
+}
+.xinxi text:nth-child(1)  {
+  padding: 4rpx 7rpx;
+  font-size: 20rpx;
+  color: #ccc;
+}
+.xinxi text:nth-child(2) {
+  margin-left: 200rpx;
+  padding: 10rpx;
+  background-color: #bd8b61;
+  text-align: center;
+  color: #fff;
+  border-radius: 10rpx;
+}
+.img {
+  float: left;
+  width: 192rpx;
+  height: 168rpx;
+  background-color: #ccc;
+}
+.img image {
+  width: 100%;
+  height: 100%;
+}
+.time {
+  margin: 10rpx 0;
+  font-size: 18rpx;
+  color: #ccc;
+}
+.tabbar {
+  box-sizing: border-box;
+  margin: 19rpx;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  font-size: 26rpx;
+}
+/* .tabbar text::before {
+  content: "";
+  position: absolute;
+  left: 16rpx;
+  top: 46rpx;
+  width: 100rpx;
+  border-bottom:4rpx solid #bd8b61;
+} */
+.active {
+  color: #bd8b61;
+  border-bottom:4rpx solid #bd8b61;
+  padding-bottom: 10rpx;
+}

@@ -1,0 +1,4 @@
+<!--pages/index/huxing/huxing.wxml-->
+<view wx:for='{{imgList}}' wx:key>
+  <image src='{{item}}' bindtap='imgBind' data-id='{{index}}' /> 
+</view>

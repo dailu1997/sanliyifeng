@@ -1,0 +1,105 @@
+<!--index.wxml-->
+
+<view class='header '>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='true'>
+  <block wx:for="{{banner}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class="news" bindtap="newsRight">
+  <image src='../../static/icon/zhanting.png'></image>
+</view>
+<view class="body">
+  <view class="guo-left" bindtap="brand">
+    <image class="sanli" src="{{picture.project_rongyu}}" />
+  </view>
+  <view class="guo-right">
+    <image class="basic" bindtap="basic" src="{{picture.project_canshu}}" />
+    <image class="information" bindtap="information" src="{{picture.project_gaikuang}}" />
+  </view>
+  <view class="recent">
+    <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="1500" duration="{{duration}}" circular='true' style='height:256rpx'>
+      <block wx:for="{{special}}" wx:key="*this">
+        <swiper-item>
+          <image src="{{item.img}}" data-id="{{item.index}}" bindtap="recent" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="dingwei" bindtap="dingwei">
+      <image src='../../static/icon/weizhi.png'></image>
+  </view>
+  <!-- 管理员设置权限 -->
+  <view class="register" wx:if="{{ident == 1}}" bindtap="register">
+    <image src="{{picture.project_dengji}}" />
+  </view>
+  <!-- 来访登记 -->
+  <view class="register" wx:if="{{ident != 1}}" bindtap="dengji">
+    <image src="../../static/icon/dengji.gif" />
+  </view>
+
+  <view class="xiaoguo">
+    <view class="xiaoguo-left" bindtap="xiaoLeft">
+      <view class='xinshang'>户型欣赏</view>
+      <image src="{{picture.project_shangxi}}" bindtap="huxing" />
+    </view>
+    <view class="xiaoguo-right">
+      <image bindtap="xiaoTop" src="{{picture.project_yangban}}" />
+      <image bindtap="xiaoBottom" src="{{picture.project_xiaoguo}}" />
+    </view>
+  </view>
+  <view class="interview" bindtap="interview">
+    <image src="{{picture.project_dashi}}" />
+  </view>
+  <view class='list'>
+    <image bindtap="listLeft" src="{{picture.project_liangdian}}" />
+    <image bindtap="listRight" src="{{picture.project_xiaoshou}}" />
+  </view>
+  <view class="img-list">
+    <image bindtap="listTop"  src="{{picture.project_peitao}}" />
+    <image bindtap="listMiddle" src="{{picture.project_liucheng}}" />
+    <image bindtap="listBottom" src="{{picture.project_jiashu}}" />
+  </view>
+  <view class="share">
+    <view class='wai'>
+    <text class="haoyou">分享给好友</text>
+    <view bindtap="diy" class="diy"><image src='../../static/icon/fenxiang@2x.png' /><text>DIY我的个人专属卡片</text></view>
+    <view class="share-txet">
+      <view class='ineed'><image src='../../static/icon/yuanju@2x.png' />我要分享</view> <view class="generate"><image src='../../static/icon/yunjukao@2x.png' />生成卡片</view>
+    </view>
+    </view>
+  </view>
+    
+  <view class="contact">
+    <text>是否主动联系我们</text>
+    <text bindtap="lianxi">好的</text>
+    <view class="zhe" wx:if="{{ishow}}">
+      <view class="bo">
+      <!-- <view class="title">
+        title
+      </view> -->
+      <view class="content">
+        <!-- {{content}} -->
+        
+        感谢留电，我们会在第一时间联系您，您还可以直接发起在线咨询
+      </view>
+      <view class="footer">
+        <view class="btn" bindtap="xianshi">
+          <!-- {{canceText}} -->
+          考虑考虑
+
+        </view>
+        <view class="btn" bindtap="zhi">
+          <!-- {{confirmText}} -->
+          在线咨询
+        </view>
+      </view>
+      </view>
+    </view>
+  </view>
+</view>

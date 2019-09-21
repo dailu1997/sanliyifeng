@@ -1,0 +1,26 @@
+<!--pages/index/xiaoguo/xiaoguo.wxml-->
+<!--pages/index/xiaoguo/xiaoguo.wxml-->
+  <view class='images'>
+     <text wx:for='{{navigations}}' wx:key class='navigation {{index == showId ? "active" : ""}}' data-index="{{index}}" data-i="i{{index}}" bindtap='active' >{{item.title}}({{item.num}})</text>
+  </view>
+<view class='body'>
+  <view class='listImg'>
+    <scroll-view class="jump_list"
+    scroll-into-view="{{show}}" 
+    scroll-y="true" 
+    scroll-with-animation="true" >
+  <!-- <view wx:for="{{30}}" wx:key="{{item}}"
+      id="item{{item}}" class="list_item" >
+      {{item}}
+  </view> -->
+  <view class='pictures' wx:for='{{navigations}}' id="i{{index}}" wx:key="{{index}}">
+      <view>{{item.title}}({{item.num}})</view>
+      <view class='imgs'  wx:for="{{index == 2 ? images :''}}" wx:key>
+         <image src="https://www.sxzztc.com/attachment/{{item}}" bindtap="previewImage" data-img="https://www.sxzztc.com/attachment/{{item}}"></image>
+      </view>
+  </view>
+</scroll-view>
+    
+  </view>
+</view>
+

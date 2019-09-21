@@ -1,0 +1,89 @@
+/* pages/housetype/zixun/zixun.wxss *//* pages/activity/zixun/zixun.wxss */
+.chatBox {
+  padding: 0 18rpx 0 18rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.left {
+  float: left;
+} 
+.right {
+  float: right;
+}
+.chatBox .title {
+  display: block;
+  margin: 20rpx auto;
+  text-align: center;
+  font-size: 14rpx;
+}
+.zhiye {
+  overflow: hidden;
+  text-align: center;
+}
+.touXiang {
+  margin-right: 15rpx;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background-color: #e135;
+} 
+.guwen {
+  float: left;
+  font-size: 26rpx;
+  line-height: 60rpx;
+}
+.wenben {
+  border-radius: 2%;
+  padding: 15rpx 20rpx;
+  margin:20rpx 45rpx;
+  background-color: rgb(241, 238, 233) 
+}
+.wenben .duihua {
+  font-size: 24rpx;
+  display: block;
+  margin-bottom: 10rpx;
+}
+.wenben .shijian {
+  font-size: 18rpx;
+  color: rgb(172, 172, 171)
+}
+.shuru {
+  width: 100%;
+  position: fixed;
+  bottom: 0rpx;
+  padding: 12rpx 20rpx;
+  height: 100rpx;
+  background-color: rgb(242, 242, 242);
+  box-sizing: border-box;
+}
+.yuju {
+  display: inline-block;
+  width: 70rpx;
+  height: 70rpx;
+  background-color: rgb(211, 211, 211);
+  font-size: 20rpx;
+  text-align: center;
+  color: rgb(111, 111, 111);
+  border-radius: 5%;
+  margin-right: 16rpx;
+}
+.kuang {
+  padding-left: 10rpx;
+  display: inline-block;
+  width: 539rpx;
+  height: 72rpx;
+  background-color: #fff;
+}
+.tu {
+  display: inline-block;
+  width: 65rpx;
+  height: 52rpx;
+  margin: 10rpx 0 10rpx 16rpx;
+  background-color: pink;
+}
+.ziji {
+  overflow: hidden;
+}
+.ju {
+  
+}

@@ -1,0 +1,42 @@
+<!--pages/index/register/register.wxml-->
+<view class='body'>
+  <view class="full-name width">
+    <input class="name"   placeholder="请输入姓名*" value="" bindblur="name"></input>
+  </view>
+   <view class="full-name width">
+    <label class='item-left color-333 mg-rt10' style="margin-left:40rpx;" for='sex'>性别：</label>
+    <radio-group class="item-right radio-group" bindchange="changeSex" >
+      <label class="radio" wx:for="{{items}}" wx:key>
+        <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.name}}
+      </label>
+    </radio-group>
+  </view>
+  <view class="full-name width">
+    
+    <input class="name" type="text" bindblur="iphone"  placeholder="请输入手机号码*" name="title"></input>
+  </view>
+  <view class="apartment width">
+    <view>请选择意向户型</view>
+    <text wx:for='{{huxing}}' class="{{index == ident ? 'active' :''}}" bindtap="yixiang" data-id="{{index}}" data-hu="{{item}}" wx:key>{{item}}</text>
+  </view>
+  <view class="budget">
+    <view>购房预算 （10 - 300 万）</view>
+    <view class="section section_gap">
+            <view class="body-view">
+                <slider bindchange="changey"  min="10" max="300" block-color="#df9282" block-size="12" activeColor="#df9282"  show-value/>
+            </view>
+    </view>
+  </view>
+  <view class="size">
+    <view>购房面积 （10 - 400 m²）</view>
+    <view class="section section_gap">
+            <view class="body-view">
+                <slider bindchange="changem" min="10" max="400" block-color="#df9282" block-color="#df9282" block-size="12" activeColor="#df9282" show-value/>
+            </view>
+    </view>
+  </view>
+  <view class="demand width">
+    <textarea class="wenyu" auto-focus="true" bindblur="text"  placeholder="请输入您的具体情况和要求：" /> 
+  </view> 
+</view>
+<button class='button' bindtap="commit">提交</button>

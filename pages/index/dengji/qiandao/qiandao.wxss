@@ -1,0 +1,80 @@
+/* pages/index/dengji/qiandao/qiandao.wxss */
+page {
+  background-color: #f4f4f4;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.body {
+  width: 710rpx;
+  margin: 20rpx auto;
+  padding: 30rpx 50rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.body text {
+  display: block;
+  font-size: 22rpx;
+  color: #666;
+  margin-bottom: 25rpx;
+}
+.xu {
+  position: relative;
+}
+.body .xu text {
+  display: inline-block;
+} 
+.body .xu text:nth-child(1) {
+  margin: 0 20rpx;
+}
+.body .xu text:nth-child(2) {
+  padding: 10rpx 15rpx;
+  box-sizing: border-box;
+  background-color: #df9282;
+  color: #fff;
+  margin-right: 20rpx;
+}
+.body .xu text:nth-child(3) {
+  color: #f45a5a;
+}
+.body .xu .view {
+  position: absolute;
+  top:-10rpx;
+  left: 183rpx;
+  width: 25rpx;
+  height: 25rpx;
+  border-radius: 50%;
+  background-color: red;
+}
+.body .xu #xiu {
+  border: 1px solid #bfbfbf;
+  background-color: #fff;
+  color: #bfbfbf;
+}
+#ban {
+  border: 1px solid #df9282;
+  background-color: #fff;
+  color: #df9282;
+}
+.pai {
+  width: 500rpx;
+  position: relative;
+}
+.pai .button {
+  text-align: center;
+  position: absolute;
+  bottom: 24rpx;
+  right: 0rpx;
+  width: 100rpx;
+  font-size: 22rpx;
+  padding: 10rpx 25rpx;
+  background-color: #df9282;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  color: #fff;
+}

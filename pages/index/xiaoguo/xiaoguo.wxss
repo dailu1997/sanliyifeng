@@ -1,0 +1,53 @@
+/* pages/index/xiaoguo/xiaoguo.wxss */
+.body {
+  padding: 24rpx;
+}
+.images {
+  position: fixed;
+  z-index: 9;
+  overflow: hidden;background-color: #fff;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 24rpx;
+}
+ .navigation  {
+  
+   display: inline-block;
+   padding: 16rpx 30rpx;
+   font-size:26rpx;
+}
+ .active {
+   background-color: rgb(240, 227, 216);
+   color: rgb(167, 125, 89);
+}
+.body .pictures {
+  overflow: hidden;
+  font-size: 20rpx;
+  padding: 20rpx 0 30rpx 0;
+  border-bottom: 1px solid #ccc;
+}
+.body .pictures .imgs {
+  float: left;
+   width: 170rpx;
+   height: 170rpx;
+   background-color: rgb(240, 240, 240);
+   margin-top: 10rpx;
+   margin-right: 5rpx;
+   
+}
+.imgs image {
+  /* display: flex;
+flex-direction: row-reverse;
+justify-content: space-between; */
+  /* float: left; */
+  width: 170rpx;
+  height: 170rpx;
+}
+.listImg {
+ margin-top: 150rpx;
+}
+.jump_list {
+  position: relative;
+  height: 100%;
+}

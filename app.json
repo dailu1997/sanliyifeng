@@ -1,0 +1,81 @@
+{
+  "pages": [
+    "pages/show/show",
+    "pages/index/index",
+    "pages/mymessage/mymessage",
+    "pages/mymessage_detile/mymessage_detile",
+    "pages/protocol/protocol",
+    "pages/detile/detile",
+    "pages/newtrends/newtrends",
+    "pages/service/service",
+    "pages/special/special",
+    "pages/servicedetile/servicedetile",
+    "pages/newsdetile/newsdetile",
+    "pages/housetype/housetype",
+    "pages/housetype/zixun/zixun",
+    "pages/housetypedetile/housetypedetile",
+    "pages/calculator/index",
+    "pages/order/order",
+    "pages/me/noticeInfo/noticeInfo",
+    "pages/me/notice/notice",
+    "pages/product/detail/detail",
+    "pages/introduce/introduce",
+    "pages/mymessage/mydetails/index",
+    "pages/index/brand/brand",
+    "pages/index/zhanting/zhanting",
+    "pages/index/dingwei/dingwei",
+    "pages/index/dengji/dengji",
+    "pages/index/dengji/qiandao/qiandao",
+    "pages/index/dengji/paiban/paiban",
+    "pages/index/dengji/jilu/jilu",
+    "pages/index/register/register",
+    "pages/index/huxing/huxing",
+    "pages/index/xiaoguo/xiaoguo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#bd8b61",
+    "navigationBarTitleText": "三立·逸丰国际",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#9a9a9a",
+    "selectedColor": "#9a9a9a",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+       "iconPath": "/static/tabbar/shouye1.png",
+      "selectedIconPath": "/static/tabbar/webwxgetmsgimg.jpg"
+      },
+      {
+        "text": "活动",
+        "pagePath": "pages/detile/detile",
+        "iconPath": "/static/tabbar/huodong1.png",
+        "selectedIconPath": "/static/tabbar/huodong2.png"
+      },
+      {
+        "text": "咨询",
+        "pagePath": "pages/housetype/housetype",
+        "iconPath": "/static/tabbar/zixun1.png",
+        "selectedIconPath": "/static/tabbar/zixun2.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mymessage/mymessage",
+        "iconPath": "/static/tabbar/wode1.png",
+        "selectedIconPath": "/static/tabbar/wode2.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

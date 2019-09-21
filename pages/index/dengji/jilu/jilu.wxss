@@ -1,0 +1,55 @@
+/* pages/index/dengji/jilu/jilu.wxss */
+page {
+  background-color: #f4f4f4;
+}
+.width {
+  width: 710rpx;
+}
+.fenlei {
+  width: 710rpx;
+  margin: 20rpx auto;
+  padding: 30rpx 0 ;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.fenlei text {
+  margin: 0 auto;
+}
+.time {
+  margin: 0 auto;
+  padding: 22rpx 30rpx;
+  box-sizing: border-box;
+}
+.time text:nth-child(1) {
+  vertical-align: middle;
+  font-size: 28rpx;
+  margin-right: 25rpx;
+}
+.time text:nth-child(2) {
+  font-size: 18rpx;
+  color: #c4c4c4;
+}
+.body {
+  margin: 0 auto;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 40rpx 30rpx;
+  border-radius: 10rpx;
+  font-size: 22rpx;
+}
+.body image {
+  width: 24rpx;
+  height: 23rpx;
+  margin-right: 20rpx;
+}
+.qian view {
+  margin-bottom: 25rpx;
+} 
+.qian {
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 25rpx;
+}
+

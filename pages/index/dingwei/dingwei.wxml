@@ -1,0 +1,5 @@
+<!--pages/index/dingwei/dingwei.wxml-->
+<map id="map" longitude="{{x}}" latitude="{{y}}" 
+scale="18"  style="width: 100%; height: 1446rpx;" bindtap="click">
+</map>
+

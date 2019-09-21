@@ -1,0 +1,14 @@
+<!--pages/index/dengji/paiban/paiban.wxml-->
+<view class='body'>
+  <view class='zhi'>
+     <image class='left' src='../../../../static/icon/guwentou.gif'></image>
+     <view class='shun left'>
+       <text>置业顾问甲</text>
+       <text>接待顺序 : </text> <input class="input" value="" bindblur="sequence"></input>  <!-- 那个触发事件  -->
+     </view>
+     <view class='state '>
+        <text wx:for="{{shou}}" bindtap='active' class="{{index == setid ? 'active' :''}}" data-data="{{item}}" data-id="{{index}}" wx:key>{{item}}</text>
+     </view>
+  </view>
+</view>
+<button class='button' bindtap="ti">提交</button>

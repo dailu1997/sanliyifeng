@@ -1,0 +1,26 @@
+<!--客户-->
+<view class='body'>
+   <view class='adviser'>
+     <view class='headPortrait'>
+     </view>
+     <view class='text'>
+       <text>置业顾问甲</text><text>15929665869</text><view>注册时间：2019.03.03</view>
+     </view>
+     <view class='consultation' bindtap='zixun'>咨询</view>
+   </view>
+</view>
+
+<!-- 置业顾问 -->
+<view class='body none'>
+   <view class='adviser'>
+     <view class='headPortrait'>
+     </view>
+     <view class='text zhiye'>
+       <text>客户昵称</text><text>15929665869</text>
+     </view>
+     <view class='right'>
+     <view class='time'>注册时间：2019.03.03</view>
+     <view class='consultation' bindtap='huifu'>咨询记录 <view class='biao'>1</view></view>
+     </view>
+   </view>
+</view>

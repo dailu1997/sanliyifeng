@@ -1,0 +1,9 @@
+<!--pages/index/zhanting/zhanting.wxml-->
+ <map id="myMap" latitude="{{latitude}}" 
+  longitude="{{longitude}}" 
+  markers="{{markers}}" 
+  show-location 
+  bindmarkertap="selectMarket"
+  include-points="{{markers}}"
+  style="width: 100%; height: 1446rpx;">
+  </map>

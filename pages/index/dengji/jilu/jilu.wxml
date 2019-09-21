@@ -1,0 +1,19 @@
+<!--pages/index/dengji/jilu/jilu.wxml-->
+<view class='fenlei' wx:if="{{1==2}}">
+  <text>全部账号签到 ▽</text> <text>全部团队△</text>
+</view>
+<view class='time width'>
+  <text>2018年10月21日</text> <text>共有8个客户签到</text>
+</view>
+<view class='body width'>
+  <view class='qian'>
+    <view> <image src='../../../../static/icon/kehu.gif'/> <text>客户：昵称  137****4598 | 老客户手</text> </view>
+    <view> <image src='../../../../static/icon/time.gif'/> <text>签到时间：10月21日 11:45</text> </view>
+    <view> <image src='../../../../static/icon/guwenya.gif'/> <text>置业顾问：自销团队 | 置业顾问甲 | 18823</text> </view>
+  </view>
+  <view class='qian'>
+    <view> <image src='../../../../static/icon/kehu.gif'/> <text>客户：昵称  137****4598 | 老客户手</text> </view>
+    <view> <image src='../../../../static/icon/time.gif'/> <text>签到时间：10月21日 11:45</text> </view>
+    <view> <image src='../../../../static/icon/guwenya.gif'/> <text>置业顾问：自销团队 | 置业顾问甲 | 18823</text> </view>
+  </view>
+</view>

@@ -1,0 +1,37 @@
+<!--pages/index/dengji/qiandao/qiandao.wxml-->
+<view class='body'>
+  <view class=''>
+   <text>客户：昵称  137****4598 | 有归属关</text>
+  </view>
+  <view>
+    <text>推荐关系：新到访客户</text>
+  </view>
+  <view>
+    <text>轨迹：无</text>
+  </view>
+   <view>
+    <text>签到时间：11月01日 11:20</text>
+  </view>
+  <view>
+    <text>分配置业顾问：置业顾问甲</text>
+  </view>
+  
+    <text class='left'>置业顾问 : </text> 
+    <view class='pai left'>
+      <view class="xu">
+        <text>1.</text> <text>置业顾问甲</text> <text>上班</text>
+        <view class='view'></view>
+      </view>
+      <view class="xu">
+        <text>2.</text> <text id='xiu'>置业顾问甲 </text> <text>休假</text>
+        <view class='view'></view>
+      </view>
+      <view class="xu">
+        <text>3.</text> <text id="ban">置业顾问甲</text> <text>上班</text>
+        <view class='view'></view>
+      </view>
+      <view class='button'>分配</view>
+    </view>
+  
+</view>
+

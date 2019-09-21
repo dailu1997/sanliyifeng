@@ -1,0 +1,68 @@
+<!--客户-->
+<view class='chatBox'>
+  <text class='title'>您的专属置业顾问甲为您服务</text>
+  <view class='guangfang'>
+    <view class='zhiye'>
+      <view class='touXiang left'>
+
+      </view>
+      <text class='guwen'>置业顾问甲</text>
+    </view>
+    <view class='wenben'>
+      <text class='duihua'>您好！我是项目置业顾问，请问您想咨询什么问题？我在这里为您快速解答</text>
+      <text class='shijian'>2019.06.12 15:45：00</text>
+    </view>
+  </view>
+  <view class='ziji right'>
+    <view class='zhiye'>
+      <view class='touXiang right'>
+
+      </view>
+    </view>
+    <view class='wenben '>
+      <text class='duihua '>您好！</text>
+      <text class='shijian'>2019.06.12 15:45：00</text>
+    </view>
+  </view>
+</view>
+  <view class='shuru'>
+     <text class='yuju left' bindtap='yuju'>
+      常用语
+     </text>
+     <input class='kuang' ></input>
+     <text class='tu'></text>
+  </view>
+  <!-- 置业顾问 -->
+  <view class='chatBox'>
+  <text class='title'>客户在线咨询,请耐心解答</text>
+  <view class='guangfang'>
+    <view class='zhiye'>
+      <view class='touXiang left'>
+
+      </view>
+      <text class='guwen'>客户昵称</text>
+    </view>
+    <view class='wenben'>
+      <text class='duihua'>客户发的消息</text>
+      <text class='shijian'>2019.06.12 15:45：00</text>
+    </view>
+  </view>
+  <view class='ziji right'>
+    <view class='zhiye'>
+      <view class='touXiang right'>
+
+      </view>
+    </view>
+    <view class='wenben '>
+      <text class='duihua '>您好！</text>
+      <text class='shijian'>2019.06.12 15:45：00</text>
+    </view>
+  </view>
+</view>
+  <view class='shuru'>
+     <text class='yuju left' bindtap='yuju'>
+      常用语
+     </text>
+     <input class='kuang' ></input>
+     <text class='tu'></text>
+  </view>

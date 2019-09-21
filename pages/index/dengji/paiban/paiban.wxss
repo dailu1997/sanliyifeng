@@ -1,0 +1,79 @@
+/* pages/index/dengji/paiban/paiban.wxss */
+page {
+  background-color: #f4f4f4;
+}
+.left {
+  float: left;
+}
+.body {
+  width: 710rpx;
+  margin: 20rpx auto;
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  background-color: #fff;
+  overflow: hidden;
+}
+.body image {
+  margin-right: 10rpx;
+  width: 106rpx;
+  height: 100rpx;
+}
+.shun text:nth-child(1) {
+  display: block;
+  font-size: 24rpx;
+  margin-bottom: 25rpx;
+  
+}
+.shun text:nth-child(2) {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 22rpx;
+  margin-right: 10rpx;
+}
+.shun input {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 22rpx;
+  width: 70rpx;
+  height: 25rpx;
+  border: 1px solid #bfbfbf;
+  border-radius:10rpx; 
+}
+.zhi {
+  overflow: hidden;
+  position: relative;
+}
+.state {
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+  width: 200rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.state text {
+   display: inline-block;
+   padding: 12rpx 18rpx;
+   background-color: #fff;
+   border-radius: 10rpx;
+   border: 1px solid #df9282;
+   font-size: 26rpx;
+   color: #df9282;
+}
+.zhi .state .active {
+  background-color: #df9282;
+  color: #fff;
+}
+.button {
+  position:fixed;
+  width: 710rpx;
+  background-color: #df9282;
+  color: #fff;
+  margin: 0 auto;
+  bottom: 0rpx;
+  left: 20rpx;
+}
+.input {
+  padding-left: 10rpx
+}
