@@ -1,0 +1,18 @@
+<!--pages/detile/details/details.wxml-->
+<view class="body">
+  <image class="banner" src="{{news.img}}"></image>
+  <view class="shuju">
+    <text class="title">传匠心品质  鉴逸城巅峰</text>
+    <view class="box">
+      <image src="../../../static/icon/shi.gif"></image> <text class="zi">时间：2019.10.01 08:00-2019.</text>
+    </view>
+    <view class="box">
+      <image src="../../../static/icon/wei.gif"></image > <text class="zi">位置：韩城市太史大街与黄河大街十字东北角</text>
+    </view>
+    <view class="tou">
+      <image src="../../../static/icon/wei.gif"></image> <text class="zi">等人已报名</text>
+    </view>
+  </view>
+  <image src="">
+  </image>
+</view>

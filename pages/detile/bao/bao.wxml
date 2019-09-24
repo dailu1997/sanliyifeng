@@ -1,0 +1,21 @@
+<!--pages/detile/bao/bao.wxml-->
+<view class="body">
+  <view class="text">
+     <text>姓名</text> <input placeholder="请输入您的姓名"></input>
+  </view>
+  <view class="text">
+     <text>电话号码</text> <input placeholder="请输入您的电话号码"></input>
+  </view>
+  <view class="text">
+     <text>参与人数</text>
+      <radio-group name="radio-group" bindchange="checkboxChange">
+      <label><radio value="radio1" />1人</label>
+      <label><radio value="radio2"/>2人</label>
+      <label><radio value="radio3"/>多人</label>
+    </radio-group>
+  </view>
+  <view class="text">
+     <text>置业顾问</text> <input placeholder="请输入您的姓名"></input>
+  </view>
+  <button class="but">确定</button>
+</view>

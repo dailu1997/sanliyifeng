@@ -4,17 +4,25 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
-		"postcss": true,
-		"minified": true,
+		"postcss": false,
+		"minified": false,
 		"newFeature": true,
+		"coverView": true,
 		"autoAudits": false,
-		"coverView": true
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
-	"appid": "wx05b55dc760c34b9a",
+	"appid": "wxb075fc8f5aff6802",
 	"projectname": "%E9%BC%8E%E4%BF%A1%E8%BE%BE%E6%88%BF%E4%BA%A7",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -49,7 +57,7 @@
 				{
 					"id": 0,
 					"name": "pages/index/dengji/dengji",
-					"pathName": "pages/index/xiaoguo/xiaoguo",
+					"pathName": "pages/detile/details/details",
 					"query": "",
 					"scene": null
 				}

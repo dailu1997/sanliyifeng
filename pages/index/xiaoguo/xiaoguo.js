@@ -7,16 +7,13 @@ Page({
    */
   data: {
     navigations: [
-      { title: "效果图", num: 10 },
-      { title: "实景图", num: 5 },
-      { title: "样板间", num: 6 },
-      { title: "户型图", num: 6 },
-      { title: "周边配套", num: 4 },
-      { title: "工程进度", num: 3 },
-      { title: "证件", num: 3 }
-    ],
-    images:[
-
+      { title: "效果图", num: 10 ,images:''},
+      { title: "实景图", num: 5, images: '' },
+      { title: "样板间", num: 6, images: ''},
+      { title: "户型图", num: 6, images: ''},
+      { title: "周边配套", num: 4, images: '' },
+      { title: "工程进度", num: 3, images: '' },
+      { title: "证件", num: 3, images: ''}
     ],
     showId:0
   },
@@ -40,7 +37,7 @@ Page({
     wx.setNavigationBarTitle({
       title: name,
     })
-    var e = a.siteInfo.uniacid, i = this;
+    var e = a.siteInfo.uniacid, i = this, lis=[];
     console.log(e)
     a.util.request({
       url: "entry/wxapp/pic",
@@ -49,26 +46,57 @@ Page({
         uniacid: e,
         project_id: t.project_id
       },
-      cachetime: "0",
+      cachetime: "0", 
       success: function (t) {
-        let text = t.data.data[0].thumb_url
-        console.log(text)
-        var regex = /\"(.+?)\"/g;
-        var result;
-        result = regex.exec(text)
-        console.log(that)
-        var li = [] ;
-        while ((result = regex.exec(text)) != null) {
-           console.log(result[0])
-          li.push(result[1])
+        for (var i = 0; i < t.data.data.length; i++){
+          
+          let text = t.data.data[i].thumb_url
+        
+          var regex = /\"(.+?)\"/g;
+          var result;
+          result = regex.exec(t.data.data[i].thumb_url)
+         
+          var li = [];
+          while ((result = regex.exec(text)) != null) {
+            
+            li.push(result[1])
+          }
+          lis.push(li)
         }
+        // let text = t.data.data[1].thumb_url
+        // console.log(text)
+        // var regex = /\"(.+?)\"/g;
+        // var result;
+        // result = regex.exec(text)
+        // console.log(result[0])
+        // var li = [] ;
+        // while ((result = regex.exec(text)) != null) {
+        //    console.log(result[0])
+        //   li.push(result[1])
+        // }
         // for (var e = 0; e < t.data.data.length; e++) t.data.data[e].time = a.toDate(t.data.data[e].time);
         // i.setData({
         //   sale: t.data.data
         // });
-        that.setData({
-          images:li
-        })
+        console.log(that.data.showId)
+        for (var i = 0; i < that.data.navigations.length;i++){
+          if (i == 0) {
+            that.data.navigations[0].images = lis[1]
+          } else if (i == 1) {
+            that.data.navigations[1].images = lis[3]
+          } else if (i == 2) {
+            that.data.navigations[2].images = lis[0]
+          } else if (i == 3) {
+            that.data.navigations[3].images = lis[2]
+          } else if (i == 4) {
+            that.data.navigations[4].images = lis[4]
+          } else if (i == 5) {
+            that.data.navigations[5].images = lis[5]
+          } else if (i == 6) {
+            that.data.navigations[6].images = lis[6]
+          }
+          console.log(that.data.navigations)
+        }
       }
     });
   },
@@ -91,7 +119,7 @@ Page({
     var current = e.currentTarget.dataset.img;
     var li = []
     for (var i = 0; i < that.data.images.length;i++){
-      console.log('https://www.sxzztc.com/attachment/' + that.data.images[i])
+      //console.log('https://www.sxzztc.com/attachment/' + that.data.images[i])
       li.push('https://www.sxzztc.com/attachment/' + that.data.images[i])
     }
     console.log( li)

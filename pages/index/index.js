@@ -38,7 +38,6 @@ Page({
             },
             cachetime: "30",
             success: function(a) {
-               
                 wx.setNavigationBarTitle({
                     title: a.data.data.info.name + ""
                 }), t.setData({

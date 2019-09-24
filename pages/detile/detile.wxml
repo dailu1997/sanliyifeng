@@ -1,20 +1,20 @@
 <!--pages/Consultation/Consultation.wxml-->
- <view class="tabbar" >
-   <text wx:for="{{list}}" wx:key data-id="{{index}}" class="{{index == idx ? 'active' : ''}}" bindtap="active">{{item}}</text>
- </view>
-<view class='body'>
- <view>
-   <view class='img'>
-    <image src="../../static/icon/huodong.gif"></image>
-   </view>
-   <view class='tuwen'>
-    <text class='text'>致敬中国大时代，消费迈入升级“升级+”，构建高品质生活生态园</text>
+<view class="tabbar">
+  <text wx:for="{{list}}" wx:key data-id="{{index}}" class="{{index == idx ? 'active' : ''}}" bindtap="active">{{item}}</text>
+</view>
+<view class='body' wx:for="{{special}}" wx:key="{{index}}" data-id="{{index}}" bindtap="details">
+  <view class='img'>
+    <image src="{{item.img}}"></image>
+  </view>
+  <view class='tuwen'>
+    <text class='text'>{{item.title}}</text>
     <view class="time">2019.05.03 08:30 - 2019.05.06 08:30</view>
     <view class='xinxi'>
-       <text>快来报名吧</text><text class="">立即报名</text>
+      <text>快来报名吧</text>
+      <text class="" bindtap="bao">立即报名</text>
     </view>
-   </view>
- </view>
-  
-   
+  </view>
+
+
+
 </view>

@@ -6,6 +6,8 @@
     "pages/mymessage_detile/mymessage_detile",
     "pages/protocol/protocol",
     "pages/detile/detile",
+    "pages/detile/bao/bao",
+    "pages/detile/details/details",
     "pages/newtrends/newtrends",
     "pages/service/service",
     "pages/special/special",

@@ -72,3 +72,6 @@ page {
   border-bottom:4rpx solid #bd8b61;
   padding-bottom: 10rpx;
 }
+.huo {
+  overflow: hidden;
+}

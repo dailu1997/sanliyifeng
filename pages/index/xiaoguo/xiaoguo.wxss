@@ -23,18 +23,17 @@
 }
 .body .pictures {
   overflow: hidden;
-  font-size: 20rpx;
-  padding: 20rpx 0 30rpx 0;
+  font-size: 25rpx;
+  padding: 20rpx 0 20rpx 0;
   border-bottom: 1px solid #ccc;
 }
 .body .pictures .imgs {
-  float: left;
+   float: left;
    width: 170rpx;
    height: 170rpx;
    background-color: rgb(240, 240, 240);
    margin-top: 10rpx;
    margin-right: 5rpx;
-   
 }
 .imgs image {
   /* display: flex;
@@ -45,7 +44,7 @@ justify-content: space-between; */
   height: 170rpx;
 }
 .listImg {
- margin-top: 150rpx;
+ margin-top: 158rpx;
 }
 .jump_list {
   position: relative;

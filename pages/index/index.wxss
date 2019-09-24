@@ -1,7 +1,7 @@
 /**index.wxss**/
 .header swiper {
   width:750rpx;
-  height:320rpx;
+  height:480rpx;
 }
 .width {
   width:702rpx;

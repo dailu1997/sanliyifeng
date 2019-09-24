@@ -1,0 +1,41 @@
+/* pages/detile/bao/bao.wxss */
+page {
+  background-color: #f4f4f4;
+}
+.body {
+  background-color: #fff;
+  width: 710rpx;
+  margin:20rpx auto;
+  padding: 50rpx;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+}
+.text {
+  width: 612rpx;
+  height: 72rpx;
+  display: flex;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 30rpx;
+} 
+.body text {
+  width: 164rpx;
+   display: inline-block;
+   padding: 24rpx 34rpx;
+   box-sizing: border-box;
+   font-size: 24rpx;
+   height: 72rpx;
+   background-color: #e5e5e5;
+   text-align: center;
+}
+.body input {
+  padding-left: 10rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+}
+.but{
+  margin-top: 90rpx;
+  background-color: #df9282;
+  color:#fff;
+}

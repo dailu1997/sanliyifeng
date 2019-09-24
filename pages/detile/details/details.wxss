@@ -1,0 +1,36 @@
+/* pages/detile/details/details.wxss */
+.body {
+
+}
+.body .banner {
+  width: 100%;
+  display:block;
+}
+.shuju {
+  padding: 20rpx 40rpx;
+  background-color: #fff;
+}
+.shuju image {
+  width: 20rpx;
+  height: 20rpx;
+}
+.title {
+  font-size: 28rpx;
+  margin: 25rpx 0;
+  display: block;
+}
+.zi {
+  font-size: 20rpx;
+  margin-left: 35rpx;
+
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25rpx;
+}
+.tou {
+  height: 45rpx;
+  width: 100%;
+}

@@ -7,7 +7,9 @@ App({
         version: "1.0",        siteroot:"https://www.sxzztc.com/app/index.php",
         method_design: "3"
     },
-    data: {},
+    data: {
+      news:[]
+    },
     util: e,
     onLaunch: function(t) {
         e.getUserInfo();
