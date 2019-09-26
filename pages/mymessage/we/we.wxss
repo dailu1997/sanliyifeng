@@ -1,0 +1,125 @@
+/* pages/mymessage/we/we.wxss */
+/* pages/my/we/we.wxss */
+page {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.fankui {
+  position: relative;
+  width: 713rpx;
+  margin: 20rpx auto;
+  background-color: #fff;
+  border-radius: 2%;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.fan image {
+  vertical-align: middle;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+} 
+.fan text {
+  line-height: 36rpx;
+  font-size: 32rpx;
+}
+
+.wenti {
+  font-size: 28rpx;
+  display: inline-block;
+  margin-right: 30rpx;
+  margin-bottom: 10rpx;
+}
+.wenti text:nth-child(2) {
+  display: inline-block;
+  border: 1px solid #df9282;
+  color: #df9282;
+  line-height: 28rpx;
+  text-align: center;
+  width: 28rpx;
+  height: 28rpx;
+  border-radius: 9rpx;
+  margin-left:20rpx; 
+}
+.detailText {
+  position: relative;
+  margin-top: 20rpx;
+  width: 653rpx;
+  height: 147rpx;
+  font-size: 28rpx;
+  background-color: #f3f3f3;
+  padding: 18rpx 0 0 30rpx;
+  box-sizing: border-box;
+} 
+.tijiao {
+  position: absolute;
+  bottom: 0rpx;
+  right: 0;
+  width: 114rpx;
+  height: 60rpx;
+  font-size: 30rpx;
+  padding: 0;
+  line-height: 60rpx;
+  background-color: #df9282;
+  color: #fff;
+}
+.yichang {
+  font-size: 22rpx;
+}
+.yao {
+  display: inline-block;
+  margin-top: 40rpx;
+  width: 395rpx;
+  font-size: 28rpx;
+  padding-left: 35rpx;
+  height: 70rpx;
+  padding:10rpx  35rpx;
+  box-sizing: border-box;
+  border: 1px solid #df9282;
+  border-radius: 10rpx;
+}
+.in {
+  top: 128rpx;
+  right: 30rpx;
+}
+.on {
+  top: 185rpx;
+}
+.gongsi {
+  margin-top: 30rpx;
+  display: block;
+  font-size: 22rpx;
+}
+.xing {
+  width: 147rpx;
+  height: 70rpx;
+}
+.iphoe {
+  margin-left: 30rpx;
+  width: 262rpx;
+  height: 70rpx;
+}
+.wenti  .active{
+  background-color: #df9282;
+  color: #fff !important;
+}
+checkbox .wx-checkbox-input {
+  width: 32rpx;
+  height: 32rpx;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background: #df9282;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 32rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}

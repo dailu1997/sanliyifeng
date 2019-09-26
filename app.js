@@ -4,7 +4,7 @@ App({
     siteInfo: {
         uniacid: "3",
         acid: "3",
-        version: "1.0",        siteroot:"https://www.sxzztc.com/app/index.php",
+        version: "1.0",        siteroot:"https://www.dxd2.cn/app/index.php",
         method_design: "3"
     },
     data: {

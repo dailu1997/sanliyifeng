@@ -1,0 +1,95 @@
+/* pages/my/trajectory/trajectory.wxss */
+page {
+  background-color: #eaeaea;
+}
+.top {
+  margin: 20rpx auto;  
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#margin{
+   margin: 0;
+}
+.top text {
+  padding-bottom: 10rpx;
+  margin: 0 40rpx;
+  color: #bd8b61;
+  
+}
+.active {
+  border-bottom:2px solid #bd8b61; 
+}
+.paihang {
+  position: relative;
+  width: 710rpx;
+  padding: 30rpx 50rpx;
+  box-sizing: border-box;
+  background:url(https://dxd2.cn/attachment/images/3/2019/09/bVMQ0Uu11r0kKuj1ZUUG1zcrH0PYdm.png);
+  background-color: #fff;
+  margin: 0 auto;
+  padding-top: 54rpx;
+  border-radius:10rpx; 
+  background-repeat:no-repeat; 
+  background-size:100% 80%;
+  -moz-background-size:100% 100%;
+}
+.first {
+  width: 204rpx;
+  margin: 0 auto;
+  color: #fff;
+}
+.fi {
+  text-align: center;
+  position: relative;
+  padding-top: 30rpx;
+  box-sizing: border-box;
+  width: 165rpx;
+  height: 115rpx;
+  background-color: #e6c47b;
+  margin: 0 auto;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+.fi image {
+  position: absolute;
+  top: -31rpx;
+  left: 56rpx;
+  width: 52rpx;
+  height: 62rpx;
+}
+.st {
+  width: 204rpx;
+  height: 50rpx;
+  background-color: #d5b36b;
+  text-align: center;
+}
+.second {
+  position: absolute;
+  top: 130rpx; 
+}
+.se {
+  background-color: #d4d3d2;
+}
+.nd {
+  background-color: #C1C1C1;
+}
+.third {
+  position: relative;
+  top: -56rpx;
+  right: -204rpx;
+}
+.pai {
+  margin-bottom: 40rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.beijing {
+  position: absolute;
+  z-index: -1;
+  top: 0rpx;
+  left: 0rpx;
+}

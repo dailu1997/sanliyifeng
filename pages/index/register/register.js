@@ -75,7 +75,9 @@ Page({
     })
   },
   commit:function () {
-    console.log(this.data)
+    if(this.data.xiangming || this.data.num == ''){
+      wx.showToast({ title: '不能为空', duration: 2000, icon: 'none' }); return false;
+    }
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

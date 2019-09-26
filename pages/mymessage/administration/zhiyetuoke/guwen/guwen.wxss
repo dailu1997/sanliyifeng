@@ -1,0 +1,105 @@
+/* pages/my/administration/zhiyetuoke/guwen/guwen.wxss */
+page {
+  background-color: #f4f4f4;
+}
+.right {
+  float: right;
+  overflow: hidden;
+}
+.guwen {
+  overflow: hidden;
+  width: 710rpx;
+  margin: 20rpx auto 0;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+  border-bottom: 1px solid #eee;
+  
+}
+.guwen image {
+  margin-right: 10rpx;
+  float: left;
+  width: 130rpx;
+  height: 130rpx;
+  border-radius:50%; 
+}
+.in { 
+  float: left;
+  font-size: 32rpx;
+}
+.in text {
+  display: block;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+.shouquan {
+  font-size: 26rpx;
+  color: #fff;
+  border: 1px solid #cecdcb;
+  border-radius: 10rpx;
+}
+.shouquan text:nth-child(1) {
+  display: inline-block;
+  padding: 10rpx;
+  border-right:1px solid #f4f4f4; 
+  background-color: #cecdcb;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius:10rpx; 
+}
+.shouquan text:nth-child(2) {
+  display: inline-block;
+  padding: 10rpx;
+  background-color: #cecdcb;
+  border-top-right-radius: 10rpx;
+  border-bottom-right-radius:10rpx; 
+}
+.shouquan #active {
+  background-color: #dd847f;
+}
+.xianhao {
+  padding: 10rpx 15rpx;
+  font-size: 26rpx;
+  background-color: #dca97e;
+  color: #fff;
+  border-radius: 10rpx;
+  text-align: center;
+  margin-top: 10rpx;
+}
+.li {
+  overflow: hidden;
+  width: 710rpx;
+  margin: 0 auto ;
+  padding: 50rpx 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-bottom-left-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+}
+.li .tuoke {
+  font-size: 36rpx;
+  color: #666;
+}
+.ke {
+  overflow: hidden;
+  width: 650rpx;
+  margin: 20rpx auto 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding-bottom: 10rpx;
+  border-bottom: 1px solid #eee;
+}
+.ke image {
+  margin-top: 15rpx;
+  margin-right: 10rpx;
+  line-height: 60rpx;
+  float: left;
+  width: 130rpx;
+  height: 130rpx;
+  border-radius:50%; 
+}
+.sm {
+  font-size: 26rpx;
+  color: #a7a7a7;
+}

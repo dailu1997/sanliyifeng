@@ -14,17 +14,18 @@ page {
   padding: 30rpx 50rpx;
   box-sizing: border-box;
   background-color: #fff;
-  border-radius: 10rpx;
+  border-radius: 15rpx;
   overflow: hidden;
 }
 .body text {
   display: block;
-  font-size: 22rpx;
+  font-size: 28rpx;
   color: #666;
-  margin-bottom: 25rpx;
+  margin-bottom: 32rpx;
 }
 .xu {
   position: relative;
+  width: 100%;
 }
 .body .xu text {
   display: inline-block;
@@ -45,7 +46,7 @@ page {
 .body .xu .view {
   position: absolute;
   top:-10rpx;
-  left: 183rpx;
+  left: 210rpx;
   width: 25rpx;
   height: 25rpx;
   border-radius: 50%;
@@ -62,7 +63,7 @@ page {
   color: #df9282;
 }
 .pai {
-  width: 500rpx;
+  width: 420rpx;
   position: relative;
 }
 .pai .button {
@@ -70,8 +71,7 @@ page {
   position: absolute;
   bottom: 24rpx;
   right: 0rpx;
-  width: 100rpx;
-  font-size: 22rpx;
+  font-size: 30rpx;
   padding: 10rpx 25rpx;
   background-color: #df9282;
   box-sizing: border-box;

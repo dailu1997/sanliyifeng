@@ -1,0 +1,43 @@
+<!--pages/my/trajectory/trajectory.wxml-->
+<view class="top">
+  <text class="{{index == ind ? 'active' : ''}}" wx:for="{{liu}}" wx:key data-id="{{index}}" bindtap="kehu">{{item}}</text>
+</view>
+<view class='paihang'>
+  <view class='first'>
+     <view class='fi'>3 <view>组用户</view> <image src='../../../static/icon/third.png'></image></view>
+     <view class='st'>用户分享</view>
+  </view>
+  <view class='first second'>
+     <view class='fi se'>3 <view>组用户</view> <image src='../../../static/icon/second.png'></image></view>
+     <view class='st nd'>朋友圈</view>
+  </view>
+  <view class='first third'>
+     <view class='fi'>3 <view>组用户</view> <image src='../../../static/icon/first.png'></image></view>
+     <view class='st'>公众号</view>
+  </view>
+  <view class='pai'>
+    <text>4.</text> <text>名片</text> <text>00</text>
+  </view>
+  <view class='pai'>
+    <text>5.</text> <text>抖音</text> <text>00</text>
+  </view>
+  <view class='pai'>
+    <text>6.</text> <text>案场活动</text> <text>00</text>
+  </view>
+  <view class='pai'>
+    <text>7.</text> <text>DM单</text> <text>00</text>
+  </view>
+  <view class='pai'>
+    <text>8.</text> <text>海报</text> <text>00</text>
+  </view>
+  <view class='pai'>
+    <text>9.</text> <text>折页</text> <text>00</text>
+  </view>
+  <view class='pai'>
+    <text>10.</text> <text>楼书</text> <text>00</text>
+  </view>
+  <view class='pai ' id='margin'>
+    <text>11.</text> <text>线上活动</text> <text>00</text>
+  </view>
+  <image src='../../../static/icon/peijing.png' class='beijing'></image>
+</view>

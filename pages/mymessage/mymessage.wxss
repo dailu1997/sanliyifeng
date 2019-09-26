@@ -1,162 +1,311 @@
+/* pages/my/my.wxss */
+
 page {
-    background-color: #e9ebee;
-    font-size: 35rpx;
-    color: #707070;
+  background-color: #eaeaea;
+}
+image{
+  vertical-align: middle;
+}
+.left {
+  float: left;
+}
+.none {
+  display: none;
+}
+.right {
+  float: right;
 }
 
-.else_icon {
-    float: right;
-    width: 50rpx;
-    margin-right: 20rpx;
-    height: 50rpx;
-    margin-top: 20rpx;
+.weiGuan {
+  width: 713rpx;
+  margin: 20rpx auto;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
 }
 
-.my_top {
-    float: left;
-    margin-top: 40rpx;
-    height: 180rpx;
-    background-color: #fff;
-    width: 100%;
+.wei {
+  display: inline-block;
+  width: 37rpx;
+  height: 36rpx;
+  margin-right: 30rpx; 
+}
+.size {
+  width: 16rpx;
+  height: 30rpx;
+  margin-left: 20rpx;
+  margin-top: 5rpx;
+}
+.wei image {
+  width: 40rpx;
+  height: 40rpx;
+  font-size: 0;
 }
 
-.my_head_view {
-    float: left;
-    margin: 20rpx 10rpx;
-    height: 140rpx;
-    width: 20%;
-    border-radius: 150rpx;
-    border: 5rpx;
+.gather {
+  line-height: 48rpx;
+}
+.weiGuan text {
+  font-size: 32rpx;
+  display: inline-block;
 }
 
-.my_headpic {
-    float: left;
-    top: 0;
-    left: 0;
-    backgroud-size: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 150rpx;
+.touXiang {
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #f185;
+  margin-top: 20rpx;
 }
 
-.my_top_message {
-    float: left;
-    color: #000;
-    font-size: 35rpx;
-    height: 100%;
-    width: 60%;
-    overflow: hidden;
-    line-height: 50rpx;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+.share {
+  font-size: 32rpx;
+  width: 713rpx;
+  margin: 0 auto 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
 }
 
-.my_top_nickname {
-    margin: 35rpx 15rpx 0rpx 15rpx;
+.search {
+  float: right;
+  width: 252rpx;
+  height: 50rpx;
+  position: relative;
+  border: 1px solid #ccc;
+  padding-left: 10rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
 }
 
-.my_top_wechat {
-    margin: 0rpx 15rpx;
-    color: #666666;
+.searchImg {
+  position: absolute;
+  left: 654rpx;
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 12rpx;
 }
 
-.my_top_qrcode_view {
-    float: right;
-    height: 50rpx;
-    width: 50rpx;
-    margin: 60rpx 20rpx;
+.jianjie {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50rpx;
+ 
 }
 
-.my_top_qrcode_view image {
-    width: 100%;
-    height: 100%;
+.tou {
+  width: 106rpx;
+  height: 100rpx;
+  margin-right: 6rpx;
+  border-radius: 50%;
 }
 
-.my_detaile {
-    float: left;
-    margin-top: 40rpx;
-    height: 90rpx;
-    background-color: #fff;
-    width: 100%;
+.tou image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
 }
 
-.my_2_father {
-    float: left;
-    margin-top: 40rpx;
-    height: auto;
-    background-color: #fff;
-    width: 100%;
+.shijian {
+  font-size: 26rpx;
 }
 
-.my_2_first {
-    height: 50%;
-    border-bottom: 1px solid #F0F0F0;
-    width: 100%;
+.wenzi text {
+  display: block;
+  margin-bottom: 10rpx;
 }
 
-.my_2_first_img {
-    float: left;
-    top: 0;
-    left: 0;
-    backgroud-size: cover;
-    padding: 20rpx;
-    width: 50rpx;
-    height: 50rpx;
+.us {
+overflow: hidden;
+  font-size: 32rpx;
+  width: 710rpx;
+  padding: 30rpx;
+  margin: 0 auto;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
 }
 
-.my_2_first_sex {
-    float: left;
-    font-size: 30rpx;
-    margin-top: 23rpx;
+.us .left {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 25rpx;
 }
 
-.my_2_second {
-    float: left;
-    height: 50%;
-    width: 100%;
-    margin-top: -10rpx;
+.us .right {
+  width: 17rpx;
+  height: 30rpx;
 }
-
-.else_icon_img {
-    width: 100%;
-    height: 100%;
+.guang {
+  display: block;
+  font-size: 18rpx;
+  margin: 0 auto;
+  width: 300rpx;
+  color: #999999;
 }
-
-.card {
-    margin-top: 20rpx;
-    height: 40rpx;
-    width: 40rpx;
+.top {
+  width: 100%;
+  height: 130rpx;
+  background-color: #bd8b61;
 }
-
-.erweima_border {
-    top: 0rpx;
-    height: 2000rpx;
-    width: 100%;
-    position: fixed;
-    background: rgba(0,0,0,0.5);
-    z-index: 34;
+.adviser {
+  position: relative;
 }
-
-.erweima_border_border {
-    height: 700rpx;
-    width: 580rpx;
-    display: block;
-    border-radius: 10rpx;
-    background: white;
-    margin: 200rpx auto;
+.guwen {
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  width: 713rpx;
+  height: 228rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+  
 }
-
-.erweima_border_title {
-    width: 100%;
-    color: #666666;
-    text-align: center;
-    margin: 0 auto 40px;
-    padding-top: 36px;
+.guwenX {
+  margin-right: 10rpx;
 }
+.guwenX image {
+  width: 170rpx;
+  height: 170rpx;
+  border-radius: 50%;
 
-.erweima_border_border_img {
-    float: left;
-    height: 340rpx;
-    margin-left: 120rpx;
-    width: 340rpx;
+}
+.xinxi text {
+   display: block;
+   margin-top: 10rpx;
+}
+.xinxi {
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}
+.tuo {
+  margin-top: 150rpx;
+  height: 300rpx;
+  font-size: 28rpx;
+  font-family: 微软雅黑;
+}
+.tubiao {
+  width: 450rpx;
+  margin: 90rpx auto;
+  margin-bottom: 0rpx;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+.first text{
+   font-size: 32rpx;
+   color: #d5b9a7;
+}
+.tubiao .first  .mei {
+  margin: 0;
+}
+.second {
+  width: 190rpx;
+  margin: 30rpx auto 15rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.second view {
+  display: inline-block;
+}
+.second view text {
+  display: block;
+}
+.second view text:nth-child(2) {
+  margin-left: 17rpx;
+  margin-top: 10rpx;
+}
+.xiabiao {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20rpx;
+  left: 30rpx;
+  width: 692rpx;
+}
+.xiabiao view {
+  padding: 20rpx 50rpx;
+  background-color: #df9282;
+  font-size: 27rpx;
+  display: inline-block;
+  margin-right: 7rpx;
+  color: #fff;
+  border-radius: 3%;
+}
+.down {
+  width: 100%
+}
+#wu {
+  margin: 0;
+}
+.superT {
+  width: 710rpx;
+  height: 200rpx;
+  margin: 20rpx auto;
+  background-color: #fff;
+  border-radius:10rpx; 
+  padding:15rpx;
+  box-sizing: border-box; 
+}
+.superT image {
+  width: 170rpx;
+  height: 170rpx;
+  border-radius: 50%;
+} 
+.geren {
+  margin-left: 40rpx;
+  font-size: 32rpx;
+  line-height: 80rpx;
+}
+.list {
+  overflow: hidden;
+  font-size: 32rpx;
+  width: 710rpx;
+  padding: 30rpx;
+  margin: 0 auto;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.middle image {
+  
+} 
+.list text {
+  line-height: 30rpx;
+}
+.list image {
+  width: 38rpx;
+  height: 33rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.list  .list-right {
+  float: right;
+  width: 14rpx;
+  height: 26rpx;
+  line-height: 30rpx;
+  margin-top: 5rpx;
+}
+.han {
+  margin-right: 10rpx;
+  color: #d5b9a7
+}
+.num {
+  margin-right: 100rpx;
+}
+.active {
+  border-bottom: 1px solid #d5b9a7;
 }

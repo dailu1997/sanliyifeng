@@ -1,0 +1,14 @@
+<!--pages/my/news/guwen/guwen.wxml-->
+<view class='body'>
+   <view class='adviser'>
+     <view class='headPortrait'>
+     </view>
+     <view class='text zhiye'>
+       <text>客户昵称</text><text>15929665869</text>
+     </view>
+     <view class='right'>
+     <view class='time'>注册时间：2019.03.03</view>
+     <view class='consultation' bindtap='huifu'>咨询记录 <view class='biao'>1</view></view>
+     </view>
+   </view>
+</view>

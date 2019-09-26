@@ -56,8 +56,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/index/dengji/dengji",
-					"pathName": "pages/detile/details/details",
+					"name": "pages/mymessage/administration/administration",
+					"pathName": "pages/mymessage/administration/gongkechi/gongkechi",
 					"query": "",
 					"scene": null
 				}

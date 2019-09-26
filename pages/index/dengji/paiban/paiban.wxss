@@ -21,14 +21,14 @@ page {
 }
 .shun text:nth-child(1) {
   display: block;
-  font-size: 24rpx;
+  font-size: 30rpx;
   margin-bottom: 25rpx;
   
 }
 .shun text:nth-child(2) {
   display: inline-block;
   vertical-align: middle;
-  font-size: 22rpx;
+  font-size: 26rpx;
   margin-right: 10rpx;
 }
 .shun input {

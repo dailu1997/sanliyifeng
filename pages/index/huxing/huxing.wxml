@@ -1,4 +1,7 @@
 <!--pages/index/huxing/huxing.wxml-->
-<view wx:for='{{imgList}}' wx:key>
-  <image src='{{item}}' bindtap='imgBind' data-id='{{index}}' /> 
+<!-- <view wx:for='{{imgList}}' wx:key>
+  <image src='伟大{{item}}' bindtap='imgBind' data-id='{{index}}' /> 
+</view> -->
+<view wx:for='{{imgList}}' class="img" wx:key>
+   <image src='https://dxd2.cn/attachment/{{item}}' bindtap='imgBind' data-id='{{index}}' /> 
 </view>

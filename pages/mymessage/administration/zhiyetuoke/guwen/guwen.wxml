@@ -1,0 +1,32 @@
+<!--pages/my/administration/zhiyetuoke/guwen/guwen.wxml-->
+<view class='guwen'>
+   <image src="../../../../../static/icon/guwentou.gif"></image>
+   <view class='in'>
+      <text>置业顾问甲</text>
+      <text>拓客5组</text>
+   </view>
+   <view class='right'>
+   <view class='shouquan'>
+     <text id="{{index == idt ? 'active' : ''}}" wx:for="{{shou}}" wx:key data-id="{{index}}" bindtap="active"> {{item}}</text>
+   </view>
+   <view class='xianhao'>一键显号</view>
+   </view>
+</view>
+<view class='li'>
+  <text class='tuoke'>拓客列表</text>
+  <view class='ke'>
+   <image src="../../../../../static/icon/guwentou.gif"></image>
+   <view class='in'>
+      <text>昵称</text>
+      <text>{{phone}}</text>
+      <text class='sm'>注册时间：20190305</text>
+   </view>
+   <view class='right'>
+   <view class='shouquan'>
+      <text id="{{index == idtd ? 'active' : ''}}" wx:for="{{shou}}" wx:key data-id="{{index}}" bindtap="actived"> {{item}}</text>
+   </view>
+   <view class='xianhao' bindtap="num">{{content}}</view>  
+   </view>
+  </view>
+</view>
+

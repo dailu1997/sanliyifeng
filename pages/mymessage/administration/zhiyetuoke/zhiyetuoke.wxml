@@ -1,0 +1,27 @@
+<!--pages/my/administration/zhiyetuoke/zhiyetuoke.wxml-->
+<view class='top' >
+  <text wx:for="{{shou}}" bindtap='active' class="{{index == setid ? 'active' :''}}" data-id="{{index}}" wx:key>{{item}}</text>
+</view>
+<view class="screen">
+     <picker class='screen-start' mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="screen-start">
+    {{dates}}
+    </view>
+  </picker>
+  <picker  class='screen-start' mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChangend">
+    <view class="screen-start" id='margin'>
+    {{dated}}
+    </view>
+  </picker>
+  <input class='search' placeholder='请输入昵称/电话'>
+    <image bindtap='search' class='img' src='../../../../static/icon/search.gif'></image>
+  </input>
+</view>
+<view class='guwen' bindtap='guwen'>
+   <image class='image' src='../../../../static/icon/guwentou.gif'></image>
+   <view class='in'>
+      <text>置业顾问甲</text>
+      <text>拓客5组</text>
+   </view>
+   <image src='../../../../static/icon/right.gif' class='picture'></image>
+</view>

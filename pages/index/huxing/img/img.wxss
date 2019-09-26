@@ -1,0 +1,8 @@
+/* pages/index/huxing/img/img.wxss */
+page{
+  font-size: 0;
+}
+image {
+  width: 100%;
+ 
+}

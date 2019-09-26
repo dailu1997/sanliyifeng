@@ -1,7 +1,7 @@
 <!--pages/index/register/register.wxml-->
 <view class='body'>
   <view class="full-name width">
-    <input class="name"   placeholder="请输入姓名*" value="" bindblur="name"></input>
+    <input class="name"   placeholder="请输入姓名" value="" bindblur="name"></input>
   </view>
    <view class="full-name width">
     <label class='item-left color-333 mg-rt10' style="margin-left:40rpx;" for='sex'>性别：</label>
@@ -13,7 +13,7 @@
   </view>
   <view class="full-name width">
     
-    <input class="name" type="text" bindblur="iphone"  placeholder="请输入手机号码*" name="title"></input>
+    <input class="name" type="text" bindblur="iphone"  placeholder="请输入手机号码" name="title"></input>
   </view>
   <view class="apartment width">
     <view>请选择意向户型</view>

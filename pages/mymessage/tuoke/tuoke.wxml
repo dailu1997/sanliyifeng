@@ -1,0 +1,32 @@
+<!--pages/my/tuoke/tuoke.wxml-->
+<view class='Customer {{state}}'>
+  <view class='weiGuan'>
+    <view class='gather'>
+      <view class='wei'>
+        <image src='../../../static/icon/weiguan.gif' />
+      </view>
+      <text>围观人数 ： 656</text>
+    </view>
+    <view class='touXiang'></view>
+  </view>
+  <view class='share'>
+    <view class='wei'>
+      <image src='../../../static/icon/myshare.gif' />
+    </view>
+    <text>我的分享 ： 49</text>
+    <input placeholder="搜索昵称/电话" class='search'></input>
+    <image class='searchImg' src='../../../static/icon/search.gif' />
+    <view class='jianjie'>
+      <view class='tou left'>
+        <image src='../../../static/icon/nicheng.gif'></image>
+      </view>
+      <view class='wenzi left'>
+        <text>昵称</text>
+        <text>15929665869</text>
+      </view>
+      <text class='shijian right'>注册时间：2019.09.03</text>
+    </view>
+  </view>
+  <text class='guang'>技术支持：西安鼎信达网络科技</text>
+</view>
+

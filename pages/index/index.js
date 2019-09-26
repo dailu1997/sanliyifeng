@@ -159,8 +159,9 @@ Page({
     })
   },
   xiaoLeft:function () {
+    var that = this
     wx.navigateTo({
-      url: 'huxing/huxing?name=户型欣赏',
+      url: 'huxing/huxing?name=户型欣赏&project_id=' + that.data.product.project_id,
     })
   },
   xiaoBottom:function () {

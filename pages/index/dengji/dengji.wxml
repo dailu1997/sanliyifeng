@@ -8,7 +8,7 @@
    <input class='iPhone' placeholder='请输入手机号' bindblur="iphone" value=""></input>
    <input class='name' placeholder='请输入姓名' bindblur="name"></input>
    <view class='sex' >
-      <view style="color:#666">请选择性别</view>
+      <view style="color:#666;margin-top:22rpx;">请选择性别</view>
       <radio-group class="radio-group" bindchange="radioChange">
   <label class="radio" wx:for="{{items}}" wx:key>
   <radio value="{{item.name}}" checked="{{item.checked}}"/><text>{{item.name}}</text>

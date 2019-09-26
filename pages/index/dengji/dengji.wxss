@@ -14,23 +14,23 @@ page {
 .yi {
   width: 500rpx;
   margin: 0 auto; 
-  font-size: 32rpx;
+  font-size: 40rpx;
   font-weight: 700;
   text-align: center;
 }
 .come {
   text-align: center;
   width: 500rpx;
-  font-size: 24rpx;
+  font-size: 30rpx;
   margin: 35rpx auto;
   color: #b0b0b0;
 }
 .body input {
-   height: 73rpx;
+   height: 90rpx;
    margin: 0 auto;
-   font-size: 24rpx;
+   font-size: 28rpx;
    padding-left: 40rpx;
-   width: 530rpx;
+   width: 570rpx;
    border: 1px solid #df9282;
    color: #df9282;
    border-radius: 10rpx;
@@ -38,14 +38,13 @@ page {
    margin-bottom: 20rpx;
 }
 .body button {
-  height: 73rpx;
-  width: 530rpx;
+  height: 90rpx;
+  width: 570rpx;
   background-color: #df9282;
   color: #fff;
   margin-top: 60rpx;
   margin-bottom: 60rpx;
-  
-  font-size: 24rpx;
+  font-size: 36rpx;
 }
 .tap {
   display: inline-block;
@@ -53,7 +52,7 @@ page {
   box-sizing: border-box;
   border-radius: 50rpx;
   background-color: #df9282;
-  font-size: 18rpx;
+  font-size: 24rpx;
 }
 
 .he {
@@ -73,7 +72,7 @@ page {
   border-bottom-right-radius: 0;
 }
 .function {
-  width: 530rpx;
+  width: 570rpx;
   margin: 0 auto;
   margin-top: 40rpx;
   display: flex;
@@ -83,18 +82,18 @@ page {
   display: inline-block;
   padding: 20rpx 25rpx;
   box-sizing: border-box;
-  background-color: #d6bbb5;
+  background-color: #e8a770;
+  border-radius: 10rpx;
   color: #fff;
 }
 .sex {
   position: relative;
-  height: 73rpx;
+  height: 90rpx;
    margin: 0 auto;
    font-size: 24rpx;
    padding-left: 40rpx;
-   width: 530rpx;
+   width: 570rpx;
    border: 1px solid #df9282;
-  line-height: 73rpx;
    border-radius: 10rpx;
    box-sizing: border-box;
    margin-bottom: 20rpx;
@@ -103,7 +102,7 @@ page {
   width: 200rpx;
   height: 73rpx;
   position: absolute;
-  top: 0rpx;
+  top: 20rpx;
   right: 0rpx;
   font-size: 24rpx;
   color: #666;

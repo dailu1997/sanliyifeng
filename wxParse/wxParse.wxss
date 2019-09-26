@@ -5,7 +5,9 @@
     color: #666;
     line-height: 1.8;
 }
-
+page {
+  font-size: 0;
+}
 view {
     word-break: break-all;
     overflow: auto;

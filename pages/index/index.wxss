@@ -1,14 +1,14 @@
 /**index.wxss**/
 .header swiper {
   width:750rpx;
-  height:480rpx;
+  height:481rpx;
 }
 .width {
   width:702rpx;
 }
 .header swiper image {
   width:750rpx;
- 
+  height: 480rpx;
 }
 .news {
   margin:24rpx;
@@ -190,7 +190,7 @@
   box-sizing:border-box;
   border:1px solid #ccc;
   width:702rpx;
-  height:400rpx;
+  height:430rpx;
   background: linear-gradient(to top right, #bd8b61 , #e3b996)
 }
 .share .diy {
@@ -264,7 +264,7 @@
   margin-left: 88rpx;
 }
 .contact text:nth-child(2) {
-  margin-left: 100rpx;
+  margin-left: 30rpx;
   display: inline-block;
   width: 100rpx;
   height: 60rpx;
@@ -297,6 +297,7 @@
   width: 667rpx;
   height: 365rpx;
   border: 1px solid #fff;
+  padding-bottom: 30rpx;
 }
 .laifang {
   margin-bottom:24rpx;

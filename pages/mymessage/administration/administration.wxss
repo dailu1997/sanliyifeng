@@ -1,0 +1,10 @@
+/* pages/my/administration/administration.wxss */
+@import "../mymessage.wxss";
+.he {
+  height: 100rpx;
+}
+.tongji text {
+  margin-left: 60rpx;
+  margin-right: 10rpx;
+  color: #c1a491;
+}

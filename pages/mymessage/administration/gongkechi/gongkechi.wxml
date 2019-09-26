@@ -1,0 +1,26 @@
+<!--pages/my/administration/gongkechi/gongkechi.wxml-->
+<view class='body'>
+   <view class='top'>
+   <view class='zuo'>
+   <image src='../../../../static/icon/do.png'></image>
+    <text bindtap='animat'>{{doo}}</text>
+    <text class='none'>取消</text>
+    </view>
+    <text class='quan' wx:if="{{status}}">全选</text>
+   </view>
+   <view class='ke' animation="{{ani}}" >
+   <image src="../../../../static/icon/guwentou.gif"></image>
+   <view class='in'>
+      <text>昵称</text>
+      <text class='sm'>来访时间：20190305</text>
+      <text>拓客电话：15929665869</text>
+      
+   </view>
+   <view class='right'>
+   <view class='shouquan'>
+     <text id='active'>分配</text>
+   </view>
+   <view class='xianhao'>未授权</view>
+   </view>
+  </view>
+</view>

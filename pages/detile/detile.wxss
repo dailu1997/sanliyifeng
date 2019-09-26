@@ -15,7 +15,7 @@ page {
   width: 450rpx;
 }
 .body .tuwen .text{
-   font-size: 26rpx;
+   font-size: 30rpx;
 }
 .width {
     width: 650rpx;
@@ -25,7 +25,7 @@ page {
 }
 .xinxi text:nth-child(1)  {
   padding: 4rpx 7rpx;
-  font-size: 20rpx;
+  font-size: 22rpx;
   color: #ccc;
 }
 .xinxi text:nth-child(2) {
@@ -48,7 +48,7 @@ page {
 }
 .time {
   margin: 10rpx 0;
-  font-size: 18rpx;
+  font-size: 22rpx;
   color: #ccc;
 }
 .tabbar {
@@ -57,7 +57,7 @@ page {
   display: flex;
   justify-content: space-between;
   position: relative;
-  font-size: 26rpx;
+  font-size: 30rpx;
 }
 /* .tabbar text::before {
   content: "";

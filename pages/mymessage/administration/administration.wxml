@@ -1,0 +1,60 @@
+<!--pages/my/administration/administration.wxml-->
+<view class='weiGuan he'>
+    <image class='wei' src='../../../static/icon/guwen.gif'></image>
+    <text >项目拓客 </text>
+    <view class='tongji right'>
+      <text>围观</text>6
+      <text>注册</text>3
+    </view>
+</view>
+<view class='weiGuan'>
+    <image class='wei' src='../../../static/icon/zhiyetuoke.gif'></image>
+    <text bindtap='zhituoke'>置业顾问拓客 </text> <text style='font-family:楷体;margin-left:10rpx'>></text>
+    <view class='tongji right'>
+      <text>围观</text>6
+      <text>注册</text>3
+    </view>
+    <view class='tubiao'>
+      <view class='first'>
+        <text class="{{index == ind ? 'active' :''}}" wx:for="{{date}}" wx:key data-id="{{index}}" bindtap="date">{{item}}</text>
+      </view>
+      <view class='second'>
+        <view>
+          <text>围观</text>
+          <text>6</text>
+        </view>
+        <view>
+          <text>注册</text>
+          <text>3</text>
+        </view>
+      </view>
+    </view>
+</view>
+<view class='weiGuan '>
+    <image class='wei' src='../../../static/icon/gonggong.gif'></image>
+    <text bindtap='gongtuoke'>公共客户池 </text> <text style='font-family:楷体;margin-left:10rpx'>></text>
+    <view class='tongji right'>
+      <text>围观</text>6
+      <text>注册</text>3
+    </view>
+    <view class='tubiao'>
+      <view class='first'>
+        <text class="{{index == inde ? 'active' :''}}" wx:for="{{date}}" wx:key data-id="{{index}}" bindtap="dateg">{{item}}</text>
+      </view>
+      <view class='second'>
+        <view>
+          <text>围观</text>
+          <text>6</text>
+        </view>
+        <view>
+          <text>注册</text>
+          <text>3</text>
+        </view>
+      </view>
+    </view>
+</view>
+<view class='xiabiao '>
+  <view>分享楼盘</view>
+  <view>生成海报</view>
+  <view id='wu'>我的邀请码</view>
+</view>

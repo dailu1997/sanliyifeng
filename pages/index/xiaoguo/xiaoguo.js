@@ -48,6 +48,7 @@ Page({
       },
       cachetime: "0", 
       success: function (t) {
+        console.log(t)
         for (var i = 0; i < t.data.data.length; i++){
           
           let text = t.data.data[i].thumb_url

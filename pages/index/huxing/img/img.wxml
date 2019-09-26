@@ -1,0 +1,2 @@
+<!--pages/index/huxing/img/img.wxml-->
+<image  src="https://www.dxd2.cn/attachment/{{img}}" mode="widthFix" bindtap="previewImage" ></image>

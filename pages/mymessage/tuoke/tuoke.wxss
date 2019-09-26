@@ -1,0 +1,146 @@
+/* pages/mymessage/tuoke/tuoke.wxss */
+/* pages/my/tuoke/tuoke.wxss */
+page {
+  background-color: #eaeaea;
+}
+image {
+   vertical-align: middle;
+}
+.left {
+  float: left;
+}
+.none {
+  display: none;
+}
+.right {
+  float: right;
+}
+
+.weiGuan {
+  width: 713rpx;
+  height: 169rpx;
+  margin: 20rpx auto;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.wei {
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 30rpx; 
+
+}
+
+.wei image {
+  width: 40rpx;
+  height: 40rpx;
+  
+}
+
+.gather {
+  line-height: 48rpx;
+  margin-bottom: 10rpx;
+}
+
+.weiGuan text {
+  font-size: 32rpx;
+  display: inline-block;
+}
+
+.touXiang {
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #f185;
+}
+
+.share {
+  font-size: 30rpx;
+  width: 713rpx;
+  margin: 0 auto 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.search {
+  float: right;
+  width: 252rpx;
+  height: 50rpx;
+  position: relative;
+  border: 1px solid #ccc;
+  padding-left: 10rpx;
+  box-sizing: border-box;
+  font-size: 26rpx;
+}
+
+.searchImg {
+  position: absolute;
+  top: 247rpx;
+  left: 654rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.jianjie {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30rpx;
+ 
+}
+
+.tou {
+  width: 130rpx;
+  height: 130rpx;
+  margin-right: 6rpx;
+}
+
+.tou image {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+}
+
+.shijian {
+  font-size: 26rpx;
+}
+
+.wenzi text {
+  display: block;
+  margin-bottom: 20rpx;
+  margin-top: 10rpx;
+}
+
+.us {
+  font-size: 32rpx;
+  width: 713rpx;
+  margin: 0 auto 20rpx;
+  background-color: #fff;
+  border-radius: 2%;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.us .left {
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 25rpx;
+}
+
+.us .right {
+  width: 17rpx;
+  height: 30rpx;
+}
+.guang {
+  position: absolute;
+  bottom: 25rpx;
+  left: 255rpx;
+  
+  display: block;
+  font-size: 18rpx;
+  width: 300rpx;
+  color: #999999;
+}

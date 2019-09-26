@@ -1,7 +1,7 @@
 <!--index.wxml-->
 
 <view class='header '>
-<swiper indicator-dots="{{indicatorDots}}"
+<swiper indicator-dots="{{indicatorDots}}" indicator-active-color="rgba(255, 255, 255, .5)"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='true'>
   <block wx:for="{{banner}}" wx:key="{{index}}">
     <swiper-item>
@@ -39,7 +39,7 @@
     <image src="{{picture.project_dengji}}" />
   </view>
   <!-- 来访登记 -->
-  <view class="register" wx:if="{{ident != 1}}" bindtap="dengji">
+  <view class="register" wx:if="{{ident == 1}}" bindtap="dengji">
     <image src="../../static/icon/dengji.gif" />
   </view>
 
@@ -76,7 +76,7 @@
   </view>
     
   <view class="contact">
-    <text>是否主动联系我们</text>
+    <text>是否允许我们主动联系您</text>
     <text bindtap="lianxi">好的</text>
     <view class="zhe" wx:if="{{ishow}}">
       <view class="bo">

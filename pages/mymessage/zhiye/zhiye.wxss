@@ -1,0 +1,123 @@
+/* pages/mymessage/zhiye/zhiye.wxss */
+/* pages/my/zhiye/zhiye.wxss */
+page{
+  background-color: #f4f4f4;
+}
+.topBanner {
+  width: 100%;
+  height: 100rpx;
+  overflow: hidden;
+}
+ #margin {
+  margin: 0;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.dian {
+  width: 610rpx;
+  height: 52rpx;
+  margin: 20rpx auto;
+  display: flex;
+  justify-content: space-between;
+}
+.dian text {
+  color: #bd8b61;
+  padding: 10rpx 20rpx;
+  font-size: 30rpx;
+}
+.active {
+  border-bottom: 1px solid #bd8b61;
+}
+.screen {
+  line-height: 150rpx;
+  padding-left: 15rpx;
+  box-sizing: border-box;
+  width: 710rpx;
+  height: 150rpx;
+  background-color: #ebdcd0;
+  margin: 0 auto;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+.screen-start {
+  margin-right: 38rpx;
+  font-size: 28rpx;
+  width: 168rpx;
+  height: 77rpx;
+  background-color: #c7a28a;
+  text-align: center;
+  line-height: 77rpx;
+  border-radius: 40rpx;
+  color: #fff;
+  display: inline-block;
+}
+.san {
+  width: 0rpx;
+  border: 12rpx solid #fff;
+  border-color: transparent;
+  border-top-color: #fff;
+}
+.search {
+  position: relative;
+  float: right;
+  width: 250rpx;
+  height: 70rpx;
+  margin-right:35rpx; 
+  margin-top: 44rpx;
+  border: 1px solid #c7a28a;
+  padding-left: 10rpx;
+  box-sizing: border-box;
+  font-size: 25rpx;
+  background-color: #fff;
+}
+.img {
+  position: absolute;
+  top: 14rpx;
+  right: 9rpx;
+  width: 27rpx;
+  height: 41rpx;
+}
+.kehu {
+  width: 710rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 0 auto;
+  border-bottom-left-radius:10rpx;
+  border-bottom-right-radius:10rpx;
+}
+.jianjie {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 15rpx;
+ 
+}
+
+.tou {
+  width: 130rpx;
+  height: 130rpx;
+  margin-right: 40rpx;
+
+}
+
+.tou image {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.shijian {
+  font-size: 22rpx;
+  color: #a7a7a7;
+}
+
+.wenzi text {
+  font-size: 28rpx;
+  display: block;
+  margin-top: 20rpx;
+}

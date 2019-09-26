@@ -1,1 +1,4 @@
 /* pages/index/huxing/huxing.wxss */
+.img image {
+  width: 100%;  
+} 

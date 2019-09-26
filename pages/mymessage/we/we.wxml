@@ -1,0 +1,39 @@
+<!--pages/my/we/we.wxml-->
+<view class='fankui'>
+  <view class='fan'>
+    <image src='../../../static/icon/wenti.png'></image>
+    <text>问题反馈</text>
+  </view>
+  <view class='xuanze'>
+    <view class='wenti' wx:for="{{problem}}" wx:key data-id="{{index}}">
+      <checkbox-group name="checkbox">
+      <label><checkbox value="checkbox1"/>{{item}}</label>
+    </checkbox-group>
+    </view>
+  </view>
+  <text class='yichang'>其他异常</text>
+   <textarea class="detailText" 
+    placeholder="输入您的备注"
+    bindblur="bindTextAreaBlur">
+    <button class='tijiao'>提交</button>
+   </textarea>
+   
+</view>
+<view class='fankui '>
+  <view class='fan'>
+    <image src='../../../static/icon/join.png'></image>
+    <text>加入我们</text>
+  </view>
+  <input class='yao' placeholder='请填写邀请码'></input>
+  <button class='tijiao in'>提交</button>
+</view>
+<view class='fankui '>
+  <view class='fan'>
+    <image src='../../../static/icon/guanyu.png'></image>
+    <text>关于我们</text>
+    <text class='gongsi'>鼎信达科技专业为地产信息源科技研发公司。</text>
+  </view>
+  
+  <input class='yao xing'  value='姓名'></input> <input class='yao iphoe'  value='电话'></input>
+  <button class='tijiao in on'>提交</button>
+</view>
