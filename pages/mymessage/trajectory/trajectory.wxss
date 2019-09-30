@@ -10,6 +10,7 @@ page {
   padding: 10rpx;
   box-sizing: border-box;
   overflow: hidden;
+  font-size: 36rpx;
 }
 #margin{
    margin: 0;

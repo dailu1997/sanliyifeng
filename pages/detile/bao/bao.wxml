@@ -13,6 +13,11 @@
       <label><radio value="radio2"/>2人</label>
       <label><radio value="radio3"/>多人</label>
     </radio-group>
+     <!-- <radio-group class="item-right radio-group" bindchange="changeSex" >
+      <label class="radio" wx:for="{{items}}" wx:key>
+        <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.name}}
+      </label>
+    </radio-group> -->
   </view>
   <view class="text">
      <text>置业顾问</text> <input placeholder="请输入您的姓名"></input>

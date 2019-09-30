@@ -8,7 +8,8 @@ Page({
   data: {
     imgList:[
 
-    ]
+    ],
+    name:''
 
   },
 
@@ -16,16 +17,21 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (t) {
+    var tt = t
     var e = a.siteInfo.uniacid, that = this, lis = [];
+    that.data.name = tt.name;
+    that.setData({
+      tt : tt.name
+    })
     wx.setNavigationBarTitle({
-      title: t.name,
+      title: tt.name,
     }),
     a.util.request({
       url: "entry/wxapp/pic",
       data: {
         m: "dxdapp_house",
         uniacid: e,
-        project_id: t.project_id
+        project_id: tt.project_id
       },
       cachetime: "0",
       success: function (t) {
@@ -46,9 +52,19 @@ Page({
           lis.push(li)
           
         }
-        console.log(lis[0])
-        var liss = lis[0]
-        var liban = lis[2]
+        that.setData({
+          lis:lis,
+
+        })
+        var liss;
+        var liban;
+        if(tt.name == '一封家书') {
+          liss = lis[7];
+          liban = lis[8]
+        }else {
+           liss = lis[0];
+           liban = lis[2]
+        }
         that.setData({
           imgList:liss,
           liban:liban
@@ -58,8 +74,15 @@ Page({
     console.log(that.data.imgList)
   },
   imgBind:function (e) {
-    var idd = e.currentTarget.dataset.id,that = this,nick,img;
-    if(idd == 0){
+    var that = this;
+    var idd = e.currentTarget.dataset.id, that = this, nick, img;
+    if(that.data.name == '一封家书') {
+      that.setData({
+        imgList : that.data.lis[8]
+      })
+      
+    }else {
+      if(idd == 0){
        nick="A户型",
        img = that.data.liban[0]
        console.log(img)
@@ -83,6 +106,9 @@ Page({
       url: 'img/img?name=' + nick + '&news=' + img + '&li=' + that.data.liban,
     })
     console.log(idd)
+    }
+   
+    
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

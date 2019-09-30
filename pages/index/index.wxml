@@ -45,8 +45,7 @@
 
   <view class="xiaoguo">
     <view class="xiaoguo-left" bindtap="xiaoLeft">
-      <view class='xinshang'>户型欣赏</view>
-      <image src="{{picture.project_shangxi}}" bindtap="huxing" />
+      <image src="{{picture.project_shangxi}}"   />
     </view>
     <view class="xiaoguo-right">
       <image bindtap="xiaoTop" src="{{picture.project_yangban}}" />
@@ -102,4 +101,13 @@
       </view>
     </view>
   </view>
+</view>
+<view class="pagefc" wx:if="{{block==1}}">
+    <view class="img_modle">
+        <image class="img_modle_top" src="../../image/tupian_ixn.png"></image>
+        <image class="img_modle_btm" src="../../image/dibubeijing_icn.png"></image>
+        <button bindgetuserinfo="updateUserInfo" class="img_modle_btn" openType="getUserInfo">
+            <image class="img_modle_btn_img" src="../../image/lijifabu_btn.png"></image>
+        </button>
+    </view>
 </view>

@@ -9,11 +9,11 @@
    <input class='name' placeholder='请输入姓名' bindblur="name"></input>
    <view class='sex' >
       <view style="color:#666;margin-top:22rpx;">请选择性别</view>
-      <radio-group class="radio-group" bindchange="radioChange">
-  <label class="radio" wx:for="{{items}}" wx:key>
-  <radio value="{{item.name}}" checked="{{item.checked}}"/><text>{{item.name}}</text>
-    </label>
-  </radio-group>
+ <radio-group class="item-right radio-group" bindchange="changeSex" >
+      <label class="radio" wx:for="{{items}}" wx:key>
+        <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.name}}
+      </label>
+    </radio-group>
    </view>
   
    <button bindtap='qian'>签到</button>

@@ -16,6 +16,7 @@ page {
   display: flex;
   border: 1px solid #e5e5e5;
   margin-bottom: 30rpx;
+  font-size: 24rpx;
 } 
 .body text {
   width: 164rpx;
@@ -38,4 +39,35 @@ page {
   margin-top: 90rpx;
   background-color: #df9282;
   color:#fff;
+}
+
+radio{
+    width: 38rpx;
+    font-size: 45rpx;
+    margin-left: 20rpx;
+}
+ 
+radio .wx-radio-input{
+    border-radius: 10%; 
+    width: 28rpx;
+    height: 28rpx;
+}
+
+radio .wx-radio-input.wx-radio-input-checked{
+   border: none;
+}
+ .radio-group {
+   float: right;
+ }
+/* 选中后的样式 （可根据设计稿需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before{
+    border-radius: 10%;
+    width: 44rpx; 
+    height: 44rpx; 
+    line-height: 44rpx;
+    text-align: center;
+    font-size: 26rpx; /* 对勾大小 26rpx */
+    color:#fff; /* 对勾颜色 */
+    background:  rgb(223,146,130);
+    border-color: rgb(223,146,130);
 }

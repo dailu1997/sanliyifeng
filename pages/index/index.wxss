@@ -140,7 +140,7 @@
 }
 .xiaoguo-left image {
   width:352rpx;
-  height:414rpx;
+  height: 512rpx;
 }
 .xiaoguo-right {
   overflow:hidden;
@@ -191,7 +191,8 @@
   border:1px solid #ccc;
   width:702rpx;
   height:430rpx;
-  background: linear-gradient(to top right, #bd8b61 , #e3b996)
+  background: linear-gradient(to top right, #bd8b61 , #e3b996);
+  margin-bottom: 100rpx;
 }
 .share .diy {
   font-size:30rpx;
@@ -254,9 +255,11 @@
   color: #fff;
   width:702rpx;
   height:100rpx;
-  margin: 12rpx auto;
+  margin: 0 auto;
   line-height: 100rpx;
   background-color: #bd8b61;
+  position: fixed;
+  bottom: 0;
 }
 .contact text:nth-child(1) {
   float: left;
@@ -269,7 +272,7 @@
   width: 100rpx;
   height: 60rpx;
   line-height: 60rpx;
-  color: #fff;
+  color: #bd8b61;
   background-color: #eed2b9;
   text-align: center;
   border-radius: 15rpx;
@@ -390,4 +393,63 @@
  -webkit-transform: scaleX(0.5);
   transform: scaleX(0.5);
   color: #d5d5d6;
+}
+.pagefc {
+    z-index: 9999;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+button::after {
+    border: none;
+}
+
+.img_modle {
+    height: 600rpx;
+    width: 500rpx;
+    margin: 0 auto;
+    margin-top: 304rpx;
+}
+
+.img_modle_top {
+    height: 417rpx;
+    width: 100%;
+}
+
+.img_modle_btm {
+    width: 100%;
+    margin-top: -40rpx;
+    height: 183rpx;
+}
+
+.img_modle_btn {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 761rpx;
+    left: 207rpx;
+    background: none;
+    width: 340rpx;
+    height: 72rpx;
+}
+
+.img_modle_btn_img {
+    width: 340rpx;
+    height: 72rpx;
+}
+
+.img_modle_close_img {
+    height: 50rpx;
+    width: 50rpx;
+    top: 280rpx;
+    right: 100rpx;
+    position: absolute;
+}
+
+button::after {
+    border: none;
 }

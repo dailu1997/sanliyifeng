@@ -1,26 +1,79 @@
 <!--pages/my/administration/gongkechi/gongkechi.wxml-->
 <view class='body'>
-   <view class='top'>
-   <view class='zuo'>
-   <image src='../../../../static/icon/do.png'></image>
-    <text bindtap='animat'>{{doo}}</text>
-    <text class='none'>取消</text>
+  <view class='top'>
+    <view class='zuo'>
+      <image src='../../../../static/icon/do.png'></image>
+      <text bindtap='animat'>{{doo}}</text>
     </view>
     <text class='quan' wx:if="{{status}}">全选</text>
-   </view>
-   <view class='ke' animation="{{ani}}" >
-   <image src="../../../../static/icon/guwentou.gif"></image>
-   <view class='in'>
+  </view>
+  <view class='ke clearfix' animation="{{ani}}">
+    <image src="../../../../static/icon/guwentou.gif"></image>
+    <view class='in'>
       <text>昵称</text>
       <text class='sm'>来访时间：20190305</text>
       <text>拓客电话：15929665869</text>
-      
-   </view>
-   <view class='right'>
-   <view class='shouquan'>
-     <text id='active'>分配</text>
-   </view>
-   <view class='xianhao'>未授权</view>
-   </view>
+     
+    </view>
+    <view class='right'>
+      <view class="{{status == true ? 'jinzhi' : 'shouquan'}}" bindtap="{{status == true ? '' : 'pei'}}">
+        <text id='active'>分配</text>
+      </view>
+      <view class="zhe" wx:if="{{tai}}">
+         <view class="fen">
+           <text class="text">分配置业顾问</text>
+           <view class="num">
+             <text>为该置业顾问显示拓客号码</text> <switch style='zoom:.8;color:#dca97e' color="#dca97e" name="switch"/>
+           </view>
+           <scroll-view scroll-y="true" class="box" >
+             <radio-group name="radio-group">
+      <!-- <label><radio value="radio1"/>radio1</label>
+      <label><radio value="radio2"/>radio2</label> -->
+                 <view class="zhi" >
+               <image src="../../../../static/icon/guwentou.gif"></image> <text>置业顾问甲</text> <radio  ></radio>
+             </view>
+             <view class="zhi">
+               <image src="../../../../static/icon/guwentou.gif"></image> <text>置业顾问甲</text> <radio ></radio>
+             </view>
+             <view class="zhi">
+               <image src="../../../../static/icon/guwentou.gif"></image> <text>置业顾问甲</text> <radio  ></radio>
+             </view>
+             <view class="zhi">
+               <image src="../../../../static/icon/guwentou.gif"></image> <text>置业顾问甲</text> <radio  ></radio>
+             </view>
+             <view class="zhi">
+               <image src="../../../../static/icon/guwentou.gif"></image> <text>置业顾问甲</text> <radio  ></radio>
+             </view>
+             </radio-group>
+             
+           </scroll-view>
+           <view class="an">
+             <view class="button" bindtap="none"> 取消</view> <view class="button actived" bindtap="tijiao">提交</view>
+           </view>
+           
+         </view>
+      </view>
+      <view class="{{status == true ? 'jin' : 'xianhao'}}" bindtap="weishou">未授权</view>
+      <view class="zhe " wx:if="{{taii}}">
+        <view class="fen height">
+          <radio-group name="radio-group">
+             <view class="zhi">
+               <text>已授权</text><radio  ></radio>
+             </view>
+             <view class="zhi">
+               <text>未授权</text><radio  ></radio>
+             </view>
+          </radio-group>
+          <view class="an">
+             <view class="button" bindtap="nonew"> 取消</view> <view class="button actived" bindtap="tijiaow">提交</view>
+           </view>
+        </view>
+      </view>
+    </view>
+    <checkbox class="ding" checked="checked" wx:if="{{status}}"></checkbox>
   </view>
+   
+</view>
+<view class="fenpei" wx:if="{{status}}" bindtap="pei">
+  分配置业顾问
 </view>

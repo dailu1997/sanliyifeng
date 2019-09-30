@@ -34,6 +34,6 @@
     <text class='gongsi'>鼎信达科技专业为地产信息源科技研发公司。</text>
   </view>
   
-  <input class='yao xing'  value='姓名'></input> <input class='yao iphoe'  value='电话'></input>
+  <input class='yao xing'  placeholder='姓名'></input> <input class='yao iphoe'  placeholder='电话'></input>
   <button class='tijiao in on'>提交</button>
 </view>

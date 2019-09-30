@@ -52,8 +52,9 @@ page {
   color: #ccc;
 }
 .tabbar {
+  width: 600rpx;
   box-sizing: border-box;
-  margin: 19rpx;
+  margin: 19rpx auto;
   display: flex;
   justify-content: space-between;
   position: relative;

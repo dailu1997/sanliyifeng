@@ -9,11 +9,12 @@
     scroll-into-view="{{show}}" 
     scroll-y="true" 
     scroll-with-animation="true" >
-  <view class='pictures' wx:for='{{navigations}}' id="i{{item.images}}" wx:key="{{index}}">
+  <view class='pictures' wx:for='{{navigations}}' id="i{{index}}" wx:key="{{index}}">
          <view>{{item.title}}({{item.num}})</view>
-          <view class='imgs'  >
+          <view class='imgs' >
+          <image   src="https://www.sxzztc.com/attachment/{{item.title}}"></image>
          <!-- {{item}} -->
-          <image wx:for="{{item.images}}" wx:key src="https://www.sxzztc.com/attachment/{{page}}" bindtap="previewImage" data-img="https://www.sxzztc.com/attachment/{{item}}"></image>
+          <!-- <image wx:for="{{item.images}}" wx:key src="https://www.sxzztc.com/attachment/images/3/2019/09/vVaF7zZ7svddvSsGZ933yCqmm9BAVf.png" bindtap="previewImage" data-img="https://www.sxzztc.com/attachment/{{item}}"></image> -->
       </view>
   </view>
  </scroll-view>

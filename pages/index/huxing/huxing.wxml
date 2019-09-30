@@ -2,6 +2,6 @@
 <!-- <view wx:for='{{imgList}}' wx:key>
   <image src='伟大{{item}}' bindtap='imgBind' data-id='{{index}}' /> 
 </view> -->
-<view wx:for='{{imgList}}' class="img" wx:key>
-   <image src='https://dxd2.cn/attachment/{{item}}' bindtap='imgBind' data-id='{{index}}' /> 
+<view wx:for='{{imgList}}' class="img {{tt == '一封家书' ? 'active' : ''}}" wx:key>
+   <image src='https://dxd2.cn/attachment/{{item}}' bindtap='imgBind' data-id='{{index}}' mode="widthFix" /> 
 </view>

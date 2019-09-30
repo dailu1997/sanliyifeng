@@ -6,31 +6,62 @@ Page({
    */
   data: {
     doo: '批量操作',
-    status:false
+    status:false,
+    tai:false,
+    taii:false
   },
   animat: function () {
+    var that = this, stat;
+    var systemInfo = wx.getSystemInfoSync();
     var animation = wx.createAnimation({
       duration: 1000,
       timingFunction: 'ease',
       delay: 0
     });
-    if(this.data.status == false) {
-      animation.width(315).step()
-      this.setData({
+    if (that.data.status == false) {
+      animation.width(630 / 750 * systemInfo.windowWidth).step()
+      that.setData({
         ani: animation.export(),
         doo:'取消',
-        status:true
+        
       })
+      setTimeout(function () {
+       that.setData({
+         status: true
+       })
+      }.bind(that), 1000)
     }else {
-      animation.width(391).step()
-      this.setData({
+      animation.width(710 / 750 * systemInfo.windowWidth).step()
+      that.setData({
         ani: animation.export(),
         doo: '批量操作',
         status: false
       })
     }
-    
-    
+  },
+  pei:function () {
+     var that = this
+     that.setData({
+       tai:true
+     })
+  },
+  none:function () {
+    var that = this
+    that.setData({
+      tai: false
+    })
+  },
+  weishou:function () {
+    var that = this
+    that.setData({
+      taii: true
+    })
+  },
+  nonew: function () {
+    var that = this
+    that.setData({
+      taii: false
+    })
   },
   /**
    * 生命周期函数--监听页面加载

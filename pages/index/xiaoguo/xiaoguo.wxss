@@ -29,7 +29,6 @@
 }
 .body .pictures .imgs {
    float: left;
-   width: 170rpx;
    height: 170rpx;
    background-color: rgb(240, 240, 240);
    margin-top: 10rpx;
@@ -39,9 +38,10 @@
   /* display: flex;
 flex-direction: row-reverse;
 justify-content: space-between; */
-  /* float: left; */
+  float: left;
   width: 170rpx;
   height: 170rpx;
+  margin-right: 10rpx;
 }
 .listImg {
  margin-top: 158rpx;

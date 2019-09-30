@@ -140,9 +140,12 @@ overflow: hidden;
 }
 .guang {
   display: block;
+  position: absolute;
+  bottom: 0;
   font-size: 18rpx;
-  margin: 0 auto;
-  width: 300rpx;
+  left: 50%;
+  margin-left: -125rpx;
+  width: 252rpx;
   color: #999999;
 }
 .top {

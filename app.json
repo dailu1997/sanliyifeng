@@ -52,21 +52,21 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color": "#9a9a9a",
-    "selectedColor": "#9a9a9a",
+    "color": "#666",
+    "selectedColor": "#bd8b61",
     "backgroundColor": "#ffffff",
     "borderStyle": "white",
     "list": [
       {
         "text": "首页",
         "pagePath": "pages/index/index",
-       "iconPath": "/static/tabbar/shouye1.png",
-      "selectedIconPath": "/static/tabbar/webwxgetmsgimg.jpg"
+       "iconPath": "/static/tabbar/shoye1.png",
+      "selectedIconPath": "/static/tabbar/shoye2.png"
       },
       {
         "text": "活动",
         "pagePath": "pages/detile/detile",
-        "iconPath": "/static/tabbar/huodong1.png",
+        "iconPath": "/static/tabbar/hodong1.png",
         "selectedIconPath": "/static/tabbar/huodong2.png"
       },
       {

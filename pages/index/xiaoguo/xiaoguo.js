@@ -82,7 +82,11 @@ Page({
         console.log(that.data.showId)
         for (var i = 0; i < that.data.navigations.length;i++){
           if (i == 0) {
-            that.data.navigations[0].images = lis[1]
+            // var ss = that.data.navigations[0].images;
+            // that.setData({
+            //   ss : lis[1]
+            // })
+            that.data.navigations[1].images = lis[3]
           } else if (i == 1) {
             that.data.navigations[1].images = lis[3]
           } else if (i == 2) {

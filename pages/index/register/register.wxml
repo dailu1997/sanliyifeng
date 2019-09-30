@@ -20,7 +20,7 @@
     <text wx:for='{{huxing}}' class="{{index == ident ? 'active' :''}}" bindtap="yixiang" data-id="{{index}}" data-hu="{{item}}" wx:key>{{item}}</text>
   </view>
   <view class="budget">
-    <view>购房预算 （10 - 300 万）</view>
+    <view>购房预算 （约 10 - 300 万）</view>
     <view class="section section_gap">
             <view class="body-view">
                 <slider bindchange="changey"  min="10" max="300" block-color="#df9282" block-size="12" activeColor="#df9282"  show-value/>
@@ -28,7 +28,7 @@
     </view>
   </view>
   <view class="size">
-    <view>购房面积 （10 - 400 m²）</view>
+    <view>购房面积 （约 10 - 400 m²）</view>
     <view class="section section_gap">
             <view class="body-view">
                 <slider bindchange="changem" min="10" max="400" block-color="#df9282" block-color="#df9282" block-size="12" activeColor="#df9282" show-value/>

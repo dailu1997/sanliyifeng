@@ -56,7 +56,7 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/mymessage/administration/administration",
+					"name": "pages/mymessage/administration/gongkechi/gongkechi",
 					"pathName": "pages/mymessage/administration/gongkechi/gongkechi",
 					"query": "",
 					"scene": null

@@ -2,3 +2,9 @@
 .img image {
   width: 100%;  
 } 
+.img {
+  font-size: 0;
+}
+.active {
+  margin: 20rpx 20rpx 0 20rpx;
+}

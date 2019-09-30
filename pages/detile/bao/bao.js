@@ -5,7 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    items: [
+      { name: '1人', checked: true },
+      { name: '2人', },{
+        name:'多人'
+      }
+    ],
   },
 
   /**
